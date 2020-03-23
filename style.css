@@ -5,16 +5,13 @@
 }
 
 :root {
-    --cell-size: 100px;
+    --cell-size: 150px;
     --mark-size: calc(var(--cell-size) * 0.9);
 }
 
 body {
     margin: 0;
-}
-
-.background {
-    background-color: #444;
+    background-color: #777;
 }
 
 .board {
@@ -115,7 +112,7 @@ body {
 .board.circle .cell:not(.x):not(.circle):hover::after {
     width: calc(var(--mark-size) * 0.7);
     height: calc(var(--mark-size) * 0.7);
-    background-color: #444;
+    background-color: #777;
 }
 
 .winning-message {
