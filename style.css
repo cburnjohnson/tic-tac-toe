@@ -13,6 +13,10 @@ body {
     margin: 0;
 }
 
+.background {
+    background-color: #444;
+}
+
 .board {
     width: 100vw;
     height: 100vh;
@@ -111,7 +115,7 @@ body {
 .board.circle .cell:not(.x):not(.circle):hover::after {
     width: calc(var(--mark-size) * 0.7);
     height: calc(var(--mark-size) * 0.7);
-    background-color: white;
+    background-color: #444;
 }
 
 .winning-message {
